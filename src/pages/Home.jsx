@@ -33,13 +33,13 @@ import Azure from '../icons/azure.jpeg';
 import Docker from '../icons/Docker.png';
 import Gmail from '../icons/gmail.jpeg';
 import Postman from '../icons/postman.png';
-import NSE from '../icons/nse.png';
+import NSE from '../icons/Nse.png';
 import Pandas from '../icons/pandas_mark.svg';
 import Numpy from '../icons/numpy.png';
 import scikit from '../icons/scikit.png';
 import Backtrader from '../icons/Backtrader.png';
 import Deep from '../icons/Deeplearning.png';
-import Image from '../icons/image.jpeg';  
+import Image from '../icons/Image.jpeg';  
 import opencv from '../icons/opencv.png'; // Add your OpenCV icon path here
 export default function Home() {
   const [showExtra, setShowExtra] = useState(false);

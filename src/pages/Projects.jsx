@@ -1,8 +1,8 @@
 // pages/Projects.jsx
-import Market from "../assets/market.png";
-import Trade from "../assets/trade.png";
+import Market from "../assets/Market.png";
+import Trade from "../assets/Trade.png";
 import Book from '../assets/logo.jpg'
-import Disaster from '../assets/disaster.png'
+import Disaster from '../assets/Disaster.png'
 export default function Projects() {
   const projects = [
     {

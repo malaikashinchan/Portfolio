@@ -14,7 +14,7 @@ import { Dodecahedron } from "@react-three/drei";
 import ReactIcon from '../assets/react.svg';
 import Nextjs from '../icons/nextjs.svg';
 import Tailwind from '../icons/tailwindcss.svg';
-import Threejs from '../icons/threejs.svg';
+import Threejs from '../icons/Threejs.svg';
 import Stream from '../icons/streamlitt.png';
 import Plotly from '../icons/plotly-icon.svg';
 import Chart from '../icons/chartjs-logo.svg';

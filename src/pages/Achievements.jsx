@@ -4,7 +4,7 @@ import FloatingCone from "../components/3d/FloatingCone";
 import BouncingSphere from "../components/3d/BouncingSphere";
 import EY from "../assets/EY.png";
 import Hopelang from "../assets/hopelang_logo.jpeg";
-import Hack from "../assets/hack.jpeg";
+import Hack from "../assets/Hack.jpeg";
 export default function Achievements() {
   const achievements = [
     {

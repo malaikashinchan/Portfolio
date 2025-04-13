@@ -11,7 +11,7 @@ import Capsule from "../components/3d/Capsule";
 import Cylinder from "../components/3d/Cylinder";
 import RotatingDodecahedron from "../components/3d/Dodecahedron";
 import { Dodecahedron } from "@react-three/drei";
-import ReactIcon from '../assets/React.svg';
+import ReactIcon from '../assets/react.svg';
 import Nextjs from '../icons/nextjs.svg';
 import Tailwind from '../icons/tailwindcss.svg';
 import Threejs from '../icons/threejs.svg';

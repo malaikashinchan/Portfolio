@@ -5,6 +5,7 @@ import BouncingSphere from "../components/3d/BouncingSphere";
 import EY from "../assets/EY.png";
 import Hopelang from "../assets/hopelang_logo.jpeg";
 import Hack from "../assets/Hack.jpeg";
+import electronics from "../icons/electronics.jpg"; // Add this to your public/images folder
 export default function Achievements() {
   const achievements = [
     {
@@ -17,7 +18,13 @@ export default function Achievements() {
       image: Hack, // Make sure this image represents Hack the Mountains
       
       title: "🏆 Hack the Mountains & 💡 Open Innovation",
-      description: "Won Hack the Mountains 2024 with BookSwap and secured 2nd Runner Up in Open Innovation for a disaster management solution using Azure and AI.",
+      description: "Won Hack the Mountains 2024 with BookSwap and secured 2nd Runner Up in Open Innovation and winner of best usage of Auth0.",
+    },
+    {
+      image: electronics, // You can add an image here if you have one
+      title: "Teaching Assistant",
+      subtitle: "Basic Electronics Lab",
+      description: "Assisted students with lab experiments, explained circuit theory, and guided them through hands-on practicals.",
     },
     
     {

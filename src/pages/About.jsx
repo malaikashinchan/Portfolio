@@ -2,7 +2,7 @@ import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 import { useRef } from "react";
 import { useFrame } from "@react-three/fiber";
-import Ansh from "../assets/Ansh.jpg"; // Replace with your actual image
+import Ansh from "../assets/ansh.jpg"; // Replace with your actual image
  // Replace with your actual image
 import {
   FaGithub,

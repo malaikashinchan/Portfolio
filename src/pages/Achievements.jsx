@@ -7,33 +7,24 @@ import Hopelang from "../assets/hopelang_logo.jpeg";
 import Hack from "../assets/Hack.jpeg";
 import electronics from "../icons/electronics.jpg"; // Add this to your public/images folder
 export default function Achievements() {
-  const achievements = [
-    {
-      image: EY, // Add this to your public/images folder
-      title: "EY Internship",
-      subtitle: "Web Developer Intern",
-      description: "Worked on MERN stack projects with Auth0 and enterprise-grade deployment.",
-    },
-    {
-      image: Hack, // Make sure this image represents Hack the Mountains
-      
-      title: "🏆 Hack the Mountains & 💡 Open Innovation",
-      description: "Won Hack the Mountains 2024 with BookSwap and secured 2nd Runner Up in Open Innovation and winner of best usage of Auth0.",
-    },
-    {
-      image: electronics, // You can add an image here if you have one
-      title: "Teaching Assistant",
-      subtitle: "Basic Electronics Lab",
-      description: "Assisted students with lab experiments, explained circuit theory, and guided them through hands-on practicals.",
-    },
-    
-    {
-      image: Hopelang, // Add this to your public/images folder
-      title: "Hopelang Internship",
-      subtitle: "Web Developer Intern",
-      description: "Created full-stack features, enhanced UI/UX, and integrated APIs.",
-    },
-  ];
+const achievements = [
+  {
+    image: Storytelling, // Add a relevant image (e.g., AI, Vision, or Research icon)
+    title: "Research Intern – Visual Storytelling (SISG)",
+    subtitle: "IIIT Vadodara | May 2025 – June 2025",
+    description:
+      "Engineered a novel storytelling pipeline (ACPR 2025) integrating Grad-CAM, ViT, CLIPSeg, and Cohere LLM for vision-grounded narrative generation. Benchmarked the pipeline on a curated dataset of 1,000 images using BLEU, ROUGE, and achieved an average cosine similarity of 0.5514 with reference stories.",
+    githubUrl: "https://github.com/Jarvisss1/Story_generation_with_single_image",
+  },
+  {
+    image: Electronics, // Add an image/icon for teaching/mentoring
+    title: "Teaching Assistant",
+    subtitle: "IIIT Vadodara | Aug 2024 – May 2025",
+    description:
+      "Led weekly laboratory sessions and vivas for 221 students in Basic Electronics Circuits (EC160). Collaborated with professors to design problems and solutions for quizzes and exams.",
+  },
+];
+
 
   return (
     <div className="relative min-h-screen bg-[#0b0c10] px-6 py-20 text-white overflow-hidden">

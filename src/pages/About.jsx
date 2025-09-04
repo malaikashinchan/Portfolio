@@ -40,7 +40,7 @@ export default function AboutMe() {
         />
 
         <h1 className="text-6xl font-extrabold text-blue-800 animate-text-slide whitespace-nowrap">
-          Hey, I’m Ansh Gupta 👋
+          Hey, I’m Malaika Varshney 👋
         </h1>
 
         <p className="text-2xl font-bold text-gray-800 animate-fade-in">
@@ -58,7 +58,7 @@ export default function AboutMe() {
         <div className="mt-4 space-y-3 animate-fade-in">
   <h2 className="text-3xl font-extrabold text-blue-700">🧠 Tech Stack</h2>
   <p className="text-lg font-semibold leading-relaxed">
-    Azure, React, Next.js, Node.js, Express, MongoDB, Flask, Python, Tailwind CSS, Material UI, Auth0, Sendbird, Puppeteer, JavaScript, HTML, CSS, REST APIs, Git, GitHub, Axios, Prism, React Syntax Highlighter, WebSockets, Geolocation API
+    Azure, React, Node.js, Express, MongoDB, Flask, Python, Tailwind CSS, Material UI, JavaScript, HTML, CSS, REST APIs, Git, GitHub, Axios, React Syntax Highlighter, WebSockets
   </p>
   <p className="text-md font-medium text-black text-3xl">
     🧩 Additionally, I've solved <span className="text-yellow-400 font-bold">350+ problems</span> on <a href="https://leetcode.com/u/anshgup444/" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-yellow-300">LeetCode</a>, strengthening my problem-solving and DSA skills.
@@ -69,24 +69,23 @@ export default function AboutMe() {
         <div className="mt-4 space-y-3 animate-fade-in">
           <h2 className="text-3xl font-extrabold text-blue-700">🎯 Fun Facts</h2>
           <ul className="list-disc list-inside text-left text-lg font-semibold space-y-2">
-            <li>I’ve built a full book exchange platform ✨📚</li>
             <li>Love debugging more than writing code 😅</li>
-            <li>Anime + Tech = perfect weekend 💻🍜</li>
+            <li>Music + Tech = perfect weekend 💻🍜</li>
             <li>Hackathon nights = best memories ⚡</li>
           </ul>
         </div>
 
         <div className="mt-6 flex gap-6 text-4xl text-blue-600 animate-fade-in">
-          <a href="https://www.linkedin.com/in/ansh-gupta-b29277259/" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-400">
+          <a href="https://www.linkedin.com/in/malaika-varshney-2bab53259" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-400">
                       <FaLinkedin />
                     </a>
-                    <a href="https://github.com/anshkie" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-400">
+                    <a href="https://github.com/malaikashinchan/" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-400">
                       <FaGithub />
                     </a>
-                    <a href="https://www.instagram.com/ansh_kye/" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-400">
+{/*                     <a href="https://www.instagram.com/ansh_kye/" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-400">
                       <FaInstagram />
-                    </a>
-                    <a href="https://leetcode.com/u/anshgup444/" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-400">
+                    </a> */}
+                    <a href="https://leetcode.com/u/Mala1ka/" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-400">
                       <FaCode />
                     </a>
         </div>
@@ -109,7 +108,7 @@ export default function AboutMe() {
         <div className="bg-white rounded-xl shadow-lg p-6 text-center animate-fade-in">
           <h2 className="text-2xl font-extrabold text-indigo-700 mb-3">📚 Currently Learning</h2>
           <p className="text-md font-semibold text-gray-700">
-            TypeScript, Redux Toolkit, Docker, Three.js, Kubernetes
+            TypeScript, Redux Toolkit, Docker, Three.js, Next.js, Kubernetes
           </p>
         </div>
 

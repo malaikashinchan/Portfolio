@@ -5,54 +5,64 @@ import Book from '../assets/logo.jpg'
 import Disaster from '../assets/Disaster.png'
 export default function Projects() {
   const projects = [
-    {
-      title: "NSE Market Scanner",
-      image: Market,
-      bullets: [
-        "Streamlit-based stock screener for NSE with real-time filters and analytics.",
-        "Included gainers, volume shockers, moving averages, and sector-wise insights.",
-        "Visualized market trends with Plotly and integrated alert system via Gmail SMTP.",
-      ],
-      projectUrl: "https://marketscanner-keakz7fafvxiednjhp2tkn.streamlit.app/",
-      githubUrl:"https://github.com/anshkie/MarketScanner.git"
-    },
-    {
-      title: "Trade Monitor",
-      image: Trade,
-      bullets: [
-        "Real-time trading dashboard with live prices, P&L tracking, and mock position simulation.",
-        "Fetched stock data via Yahoo Finance and visualized performance in a clean UI.",
-        "Designed for extensibility with support for broker APIs like Kite and Upstox.",
-      ],
-      projectUrl:"https://trademonitor-safpfmg3eftf3vqfv7htzg.streamlit.app/",
-      githubUrl:"https://github.com/anshkie/TradeMonitor.git"
-    },
-    {
-      title: "BookSwap – Online Book Exchange Platform",
-      image: Book,
-      bullets: [
-        "Peer-to-peer book sharing platform built with the MERN stack and geolocation-based discovery.",
-        "Integrated Auth0 for secure authentication and added in-app chat using Sendbird.",
-        "Designed a responsive UI with Tailwind CSS for a modern user experience.",
-      ],
-      projectUrl:"https://github.com/Mountain-Bytes",
-      githubUrl:"https://github.com/Mountain-Bytes"
-    },
-    {
-      title: "Disaster Management System on Azure",
-      image: Disaster,
-      bullets: [
-        "Cloud-based disaster response system leveraging Azure services and cognitive APIs.",
-        "Used AI for voice and image analysis to improve emergency resource allocation.",
-        "Implemented real-time data processing with Azure Functions and Cosmos DB.",
-      ],
-      projectUrl:"https://github.com/anika2711garg/Microsoft-Hackathon",
-      githubUrl:"https://github.com/anika2711garg/Microsoft-Hackathon"
+  {
+    title: "GroceryManager – Online Grocery Management System",
+    image: Grocery,
+    bullets: [
+      "Developed a full-stack grocery management platform with FastAPI backend and React frontend.",
+      "Designed and managed product, user, and order data with MySQL on PlanetScale.",
+      "Implemented complete user flow including category browsing, cart, checkout, and order history.",
+    ],
+    projectUrl: "https://grocery-omega.vercel.app/",
+    githubUrl: "https://github.com/malaikashinchan"
+  },
+  {
+    title: "Disaster Management System on Azure",
+    image: Disaster,
+    bullets: [
+      "Architected a cloud-based disaster response system using Azure Cognitive Services for real-time image analysis and speech-to-text recognition.",
+      "Facilitated collaborative decision-making through AI-driven insights and role-based access control.",
+      "Integrated Azure Functions and Cosmos DB for efficient backend processing and live system updates.",
+    ],
+    projectUrl: "https://github.com/anika2711garg/Microsoft-Hackathon",
+    githubUrl: "https://github.com/anika2711garg/Microsoft-Hackathon"
+  },
+  {
+    title: "AI-Powered Resume Improvement Website",
+    image: Resume,
+    bullets: [
+      "Engineered a full-stack web application enabling users to upload resumes (PDF/DOCX) and receive personalized improvement suggestions powered by NLP and AI.",
+      "Implemented robust text extraction using PyMuPDF and python-docx, plus spaCy/NLTK parsing to extract name, skills, experience, and education.",
+      "Designed and implemented a FastAPI backend to compute a resume–job match percentage and persist results to MySQL for history and versioning.",
+      "Developed a modern React + Tailwind frontend with upload UI, results dashboard, job-match tool, and downloadable PDF reports.",
+    ],
+    projectUrl: "https://github.com/malaikashinchan/RESUME-II",
+    githubUrl: "https://github.com/malaikashinchan/RESUME-II"
+  },
+  {
+    title: "Travel Booking Platform",
+    image: Travel,
+    bullets: [
+      "Developed a full-stack travel booking system with user login, destination listings, bookings, and reviews.",
+      "Designed RESTful APIs using Node.js and Express, and managed relational data using MySQL with complex joins, constraints, and triggers.",
+      "Created a responsive frontend using React, enabling real-time user interactions and bookings.",
+    ],
+    projectUrl: "https://github.com/malaikashinchan/travel-guide",
+    githubUrl: "https://github.com/malaikashinchan/travel-guide"
+  },
+  {
+    title: "RL-Based Handover Optimization in 5G Networks",
+    image: RL5G,
+    bullets: [
+      "Built a 5G network simulator with gNBs, UEs, interference, and mobility to evaluate handover strategies.",
+      "Implemented Q-Learning and DQN with custom reward functions to reduce ping-pong effects.",
+      "Benchmarked RL against A3 handover, achieving higher throughput and stability in simulations.",
+    ],
+    projectUrl: "https://github.com/IIITV-5G-and-Edge-Computing-Activity/2024GR11CS462",
+    githubUrl: "https://github.com/IIITV-5G-and-Edge-Computing-Activity/2024GR11CS462"
+  }
+];
 
-    }
-    
-    
-  ];
 //bg-[#fff7e6]
   return (
     <div className="bg-grey py-16 px-6 md:px-20 min-h-screen">

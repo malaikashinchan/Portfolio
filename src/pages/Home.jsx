@@ -55,8 +55,8 @@ export default function Home() {
     { name: "Tailwind CSS", icon: Tailwind },
     { name: "Three.js", icon: Threejs },
     { name: "Streamlit", icon: Stream },
-    { name: "Plotly", icon: Plotly },
-    { name: "Chart.js", icon: Chart }, // For light plotting inside UIs
+    // { name: "Plotly", icon: Plotly },
+    // { name: "Chart.js", icon: Chart }, // For light plotting inside UIs
   ];
   
   const backend = [
@@ -71,8 +71,8 @@ export default function Home() {
   ];
   
   const tools = [
-    { name: "Auth0", icon: Auth0},
-    { name: "Puppeteer", icon: Puppeteer },
+    // { name: "Auth0", icon: Auth0},
+    // { name: "Puppeteer", icon: Puppeteer },
     { name: "GitHub", icon: github},
     { name: "Azure", icon: Azure },
     { name: "Docker", icon: Docker}, // For deploying strategies as containers
@@ -86,7 +86,7 @@ export default function Home() {
     { name: "Pandas", icon: Pandas }, // Essential for financial wrangling
     { name: "NumPy", icon: Numpy },
     { name: "Scikit-learn", icon: scikit }, // For backtesting logic
-    { name: "Backtrader", icon: Backtrader }, // Trading strategy simulation
+    // { name: "Backtrader", icon: Backtrader }, // Trading strategy simulation
     { name: "Deep Learning", icon: Deep },
     { name: "Image Processing", icon: Image},
     { name: "OpenCV", icon: opencv },

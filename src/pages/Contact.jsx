@@ -97,16 +97,16 @@ const [message, setMessage] = useState("");
 
         {/* Social Icons */}
         <div className="flex gap-5 pt-6 text-2xl">
-          <a href="https://www.linkedin.com/in/ansh-gupta-b29277259/" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-400">
+          <a href="https://www.linkedin.com/in/malaika-varshney-2bab53259" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-400">
             <FaLinkedin />
           </a>
-          <a href="https://github.com/anshkie" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-400">
+          <a href="https://github.com/malaikashinchan" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-400">
             <FaGithub />
           </a>
-          <a href="https://www.instagram.com/ansh_kye/" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-400">
+          <a href="https://www.instagram.com/malai_ney/" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-400">
             <FaInstagram />
           </a>
-          <a href="https://leetcode.com/u/anshgup444/" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-400">
+          <a href="https://leetcode.com/u/Mala1ka/" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-400">
             <FaCode />
           </a>
         </div>

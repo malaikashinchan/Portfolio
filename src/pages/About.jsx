@@ -82,9 +82,9 @@ export default function AboutMe() {
                     <a href="https://github.com/malaikashinchan/" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-400">
                       <FaGithub />
                     </a>
-{/*                     <a href="https://www.instagram.com/ansh_kye/" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-400">
+                    <a href="https://www.instagram.com/malai_ney/" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-400">
                       <FaInstagram />
-                    </a> */}
+                    </a>
                     <a href="https://leetcode.com/u/Mala1ka/" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-400">
                       <FaCode />
                     </a>
